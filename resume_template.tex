@@ -1,0 +1,85 @@
+%-------------------------------------------------------------------------------
+% resume/cv template
+%
+% downloaded from: http://www.LaTeXTemplates.com
+% original: Trey Hunner (http://www.treyhunner.com/)
+%
+% notes:
+% - Must be typeset with XeLaTeX
+%
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%-------------------------------------------------------------------------------
+
+\documentclass{resume_theme} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage{url}
+\usepackage{hyperref}
+
+\name{Jane Doe} % Your name
+%\address{123 Broadway \\ City, State 12345} % Your address
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary address (optional)
+\address{ (123) 456-7890 ~$\cdot$~ \href{mailto:youremail@blah.com}{youremail@blah.com} ~$\cdot$~ \href{http://yourwebsite.com}{yourwebsite.com} } % Your phone number and email
+
+\begin{document}
+
+%-------------------------------------------------------------------------------
+%	WORK EXPERIENCE
+%-------------------------------------------------------------------------------
+
+\begin{Section}{Experience}
+
+\begin{Subsection}{Lala Land}{1600---Present}{Lead Unicorn}{Your Imagination, CA}
+\item Dude, I'm a freaking unicorn
+\item Model for fairy tale illustrations
+\end{Subsection}
+
+%------------------------------------------------
+
+\begin{Subsection}{Lala Land}{1599-1600}{Unicorn Intern}{Your Imagination, CA}
+\item Ride rainbows and be colorful
+\end{Subsection}
+
+
+\end{Section}
+
+%-------------------------------------------------------------------------------
+%	EDUCATION
+%-------------------------------------------------------------------------------
+
+\begin{Section}{Education}
+
+\begin{Subsection}{University of Unicorns}{1595---1599}{B.A. Magic}{}
+    \item {\bf Relevant Coursework:} Unicorning 101
+\end{Subsection}
+
+\end{Section}
+
+%-------------------------------------------------------------------------------
+%	SKILLS
+%-------------------------------------------------------------------------------
+
+\begin{Section}{Skills}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Languages		& Squirrel, Mandarin Chinese \\
+Misc            & Being magical af \\
+\end{tabular}
+
+\end{Section}
+
+%-------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%------------------------------------------------------------------------------
+
+%\begin{Section}{Section Name}
+
+%Section content\ldots
+
+%\end{rSection}
+
+%-------------------------------------------------------------------------------
+
+\end{document}

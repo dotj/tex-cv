@@ -1,0 +1,14 @@
+# OSX
+.DS_Store
+
+# Windows
+
+# Fonts folder
+/fonts
+
+# TeX output files
+*.aux
+*.out
+*.gz
+*.log
+*.pdf
